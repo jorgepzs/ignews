@@ -12,7 +12,9 @@ export function SigInButton(){
             type= "button"
         >
            
-            <FaGithub color="#04d361"/>
+           
+
+           
             Jorge Barros 
             <FiX color= "#737380" className={styles.CloseIcon}/>          
         </button>
