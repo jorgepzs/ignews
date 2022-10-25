@@ -9,18 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/next-auth": "^3.15.0",
     "@types/node": "^18.0.2",
     "@types/react": "^18.0.15",
+    "faunadb": "^4.6.0",
+    "mongodb": "^4.11.0",
     "next": "12.2.0",
+    "next-auth": "^4.10.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "sass": "^1.53.0",
     "stripe": "^9.13.0",
     "typescript": "^4.7.4"
   },
   "devDependencies": {
-    "eslint": "8.19.0",
     "eslint-config-next": "12.2.0"
   }
 }

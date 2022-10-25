@@ -1,4 +1,5 @@
-import { SigInButton } from '../SigInButton';
+import { SigInButton } from '../SigInGitHubButton';
+import { SigInGoogleButton } from '../SingInGoogleButton';
 import styles from './styles.module.scss';
 
 export function Header(){
@@ -13,6 +14,7 @@ export function Header(){
                 </nav>
 
             <SigInButton/> 
+            <SigInGoogleButton/>
             </div>
         </header>
     )
