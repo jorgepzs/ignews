@@ -1,4 +1,3 @@
 export const COLLECTIONS = {
-    USERS: 'client-events',
-    
+  USERS: "users",
 } as const;
